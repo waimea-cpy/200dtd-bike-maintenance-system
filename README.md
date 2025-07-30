@@ -66,6 +66,5 @@ The project demonstrates a number of **advanced digital media (web) techniques**
 - Using a third-party library
 - Using composite effects
 
-** EDIT THESE LISTS ABOVE TO MATCH YOUR PROJECT**
 
 
