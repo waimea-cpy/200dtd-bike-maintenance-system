@@ -32,6 +32,10 @@ This Figma demo shows the initial design for the UI 'flow':
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="350" height="450" src="https://embed.figma.com/proto/Wk63L9vS2AAiRFURjktUI9/Bike-Maintenance-Flow-V1?node-id=2-2&p=f&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2&embed-host=share" allowfullscreen></iframe>
 
 
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/wsUPJ5yFVA7IkwHIinYk04/Bike-Maintenance-Design-V4?node-id=1-2&p=f&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&embed-host=share" allowfullscreen></iframe>
+
+
 ### Testing
 
 I gave this demo to some potential end-users to see if they had any comments / feedback. These issues were raised:
