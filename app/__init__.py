@@ -12,7 +12,7 @@ from app.helpers.session import init_session
 from app.helpers.db      import connect_db
 from app.helpers.errors  import init_error, not_found_error
 from app.helpers.logging import init_logging
-from app.helpers.time    import init_datetime, utc_timestamp, utc_timestamp_now
+from app.helpers.dates   import init_datetime, utc_datetime_str, utc_date_str, utc_time_str
 
 
 # Create the app
@@ -30,7 +30,11 @@ init_datetime(app)  # Handle UTC dates in timestamps
 #-----------------------------------------------------------
 @app.get("/")
 def index():
-    return render_template("pages/home.jinja")
+    date_now = utc_date_str()
+    time_now = utc_time_str()
+    datetime_now = utc_datetime_str()
+
+    return render_template("pages/home.jinja", date_now=date_now, time_now=time_now, datetime_now=datetime_now)
 
 
 #-----------------------------------------------------------
